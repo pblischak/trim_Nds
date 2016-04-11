@@ -1,5 +1,7 @@
 # `trim_Nds`
 
+> **Note**: I'm still testing this out, so use with caution. If you try it and it does not work, please consider filing and issue and I'll do my best to address it.
+
 `trim_Nds` is a simple R/C++ script for trimming N's and ?'s off the ends (but not the middle) of nucleotide sequences.
 The input is a file of DNA sequences in FASTA format.
 The script can be sourced into an R session to run the main function: `trim_Nds()`.
