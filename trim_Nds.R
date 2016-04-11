@@ -12,7 +12,7 @@ trim_Nds <- function(in_fasta_file, out_fasta_file){
 
   nonzero <- lapply(out_seqs, length) != 0
 
-  nonzero_outseqs <- lapply(out_seqs[nonzero], 
+  nonzero_outseqs <- lapply(out_seqs[nonzero],
                             function(v) toupper(v))
 
   ape::write.dna(nonzero_outseqs, out_fasta_file, format="fasta",
