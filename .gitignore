@@ -4,3 +4,4 @@ output.fasta
 .RData
 *~
 .*~
+trim_Nds.cpp
