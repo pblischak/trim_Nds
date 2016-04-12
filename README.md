@@ -8,7 +8,7 @@ The script can be sourced into an R session to run the main function: `trim_Nds`
 
 ## Installing dependencies
 
-The script relies on the  R package [**ape**](https://cran.r-project.org/web/packages/ape/index.html). You can install it using the normal `install.packages` function in: `install.packages("ape")`.
+The script relies on the  R package [**ape**](https://cran.r-project.org/web/packages/ape/index.html). You can install it using the normal `install.packages` function: `install.packages("ape")`.
 
 ## Running the script
 
@@ -31,5 +31,5 @@ trim_Nds("input.fasta", "output.fasta")
 You can also try a one-liner from the command line like this:
 
 ```bash
-Rscript -e 'source("trim_Nds.R"); trim_Nds("intput.fasta", "output.fasta")'
+Rscript -e 'source("trim_Nds.R"); trim_Nds("input.fasta", "output.fasta")'
 ```
